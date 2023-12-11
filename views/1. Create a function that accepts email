@@ -1,0 +1,12 @@
+1. Create a function that accepts email and password, signup or login
+    * This function accepts three parameters, email, password, signup or login
+    * Some logic if required here
+    * signup -> call signup callback
+    * login -> login callback
+2. After doing this logic, return [SUCCESS, FAILED]
+3. Create an auth post route with the same three parameters
+4. call the function
+    * if success -> redirect
+    * if failed -> alert
+
+html -> POST /auth -> auth.js -> SUCCESS or FAILED -> /auth -> html -> redirect or not?
